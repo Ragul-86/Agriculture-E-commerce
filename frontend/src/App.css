@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+}
+
+input, textarea, select {
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Mobile Responsive Fix */
+@media (max-width: 480px) {
+  form input,
+  form textarea,
+  form select {
+    font-size: 14px;
+  }
+}
+
+
+/* :root{
+  --green: #16a34a;
+  --muted: #7a7a7a;
+  --bg: #f8fffb;
+  --card: #ffffff;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: white;
+  margin: 0;
+  color: #243042;
+}
+
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.navbar {
+  height: 70px;
+  border-bottom: 1px solid #e6ece6;
+  display: flex;
+  align-items: center;
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 30;
+}
+
+.nav-left, .nav-center, .nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left {
+  flex: 1;
+}
+
+.nav-center {
+  flex: 1;
+  justify-content: center;
+}
+
+.nav-right {
+  flex: 1;
+  justify-content: flex-end;
+  gap: 16px;
+} */
+
+/* Buttons */
+/* .btn {
+  background: var(--green);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+} */
+
+/* Grid for products */
+/* .product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 22px;
+  margin-top: 22px;
+} */
+
+/* Product card basics */
+/* .card {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 16px;
+  border: 1px solid #eff6f0;
+  text-align: center;
+} */
+
+/* Cart page */
+/* .cart-list {
+  max-width: 900px;
+  margin: 0 auto;
+} */
+
+/* small responsive tweaks */
+/* @media (max-width: 800px) {
+  .nav-center { display: none; }
+}
+.nav-btn {
+  padding: 6px 16px;
+  border-radius: 20px;
+  background: var(--green);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.25s ease;
+  text-decoration: none;
+ 
+}
+
+.nav-btn:hover {
+  background: #0c8d3a;
+}
+
+.nav-btn-outline {
+  padding: 6px 16px;
+  border-radius: 20px;
+  background: transparent;
+  border: 2px solid var(--green);
+  color: var(--green);
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.25s ease;
+}
+
+.nav-btn-outline:hover {
+  background: var(--green);
+  color: white;
+}
+ */
